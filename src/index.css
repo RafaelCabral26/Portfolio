@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply text-white scroll-smooth
+         
+    }
+     .font-poppins {
+        font-family: 'Poppins', sans-serif;
+    }
+    .font-lora {
+        font-family: 'Lora', sans-serif;
+    }
+    .font-hind {
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    body {
+        @apply bg-primary
+    }
+    h1 {
+        @apply text-2xl lg:text-4xl 2xl:text-6xl z-10 font-poppins
+    }
+    h2 {
+        @apply text-base sm:text-lg lg:text-2xl my-8 z-10 font-lora
+    }
+    span {
+        @apply text-sm sm:text-base lg:text-lg text-neutral inline-block  z-10 max-w-xs lg:max-w-md font-hind
+    }
+    a {
+        @apply text-neutral  z-10 
+    }
+    
+}
+@layer components {
+   
+    .under-hover {
+        border-bottom-width: 0;
+        background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+        background-size: 0 1px;
+        background-position: 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size .5s ease-in-out;
+        background-image: linear-gradient(transparent, transparent), linear-gradient(#00C49A,#00C49A)
+      }
+      .under-hover:hover {
+        background-size: 100% 1px;
+        background-position: 0 100%
+      }
+      .bg-portrait {
+        background-image: url("src/assets/manteste.png");
+        background-repeat: no-repeat;
+        background-position: 25vw;
+        background-size: 1000px;
+        
+      }
+      .vertical-text {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+      }
+      .horizontal-text {
+        writing-mode: horizontal-tb;
+      }
+     
+}
+
+/* SwiperJS Customizations */
+.swiper-pagination-bullet-active {
+    background:#00C49A !important;
+    border-radius: 0%;
+    width: 20px;
+    height: 6px;
+   }
+   .swiper-pagination-bullet {
+    border-radius: 0%;
+    width: 20px;
+    height: 6px;
+    
+   }
+   .swiper-button-next, .swiper-button-prev {
+    color: #00C49A;
+   }
+   @media  (max-width:600px) {
+    
+    .swiper-button-next, .swiper-button-prev {
+   display: none;
+   }
+
+   }
+   @media  (min-width:1024px) {
+ 
+    .swiper-pagination-bullet {
+        background:#fff;
+        
+       }
+   }

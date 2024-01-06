@@ -18,25 +18,25 @@ export function ProjectsPage() {
                     className="mySwiper bg-primary"
                 >
                     <SwiperSlide className="m-auto ">
-                        <img className="m-auto lg:float-right lg:m-4 lg:mr-10 rounded-lg" src="src/assets/webSite1.png" alt="" />
+                        <img className="m-auto lg:float-right lg:m-4 lg:mr-10 rounded-lg " src="src/assets/fitandapp.png" alt="" />
                         <ProjectsInfo
-                            tecs={"React, Mongodb, Express"}
+                            tecs={"NextJS, MySQL, NodeJS, Docker"}
                             gitHub={"https://github.com/RafaelCabral26/react-store/tree/master/react-store-v2.0"}
                             webSiteLink={"Link"}
                             description={
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra bibendum sagittis. Donec porta aliquam nisl sollicitudin congue. Nulla eu porttitor augue, vitae tempus. "
+                                "Aplicativo que tem como principal objetivo ajudar praticantes e treinadores de musculação a controlar seus treinos e progresso, auxiliando na criação, envio e atualização de planilhas de treino. "
                             }
                         ></ProjectsInfo>
                     </SwiperSlide>
 
                     <SwiperSlide className="m-auto ">
-                        <img className="m-auto lg:float-right lg:m-4 lg:mr-10 rounded-lg" src="src/assets/webSite1.png" alt="" />
+                        <img className="m-auto lg:float-right lg:m-4 lg:mr-10 rounded-lg" src="src/assets/e-cart.png" alt="" />
                         <ProjectsInfo
-                            tecs={"Placeholder"}
+                            tecs={"React, MongoDB, TailwindCSS, NodeJS"}
                             gitHub={"https://github.com/RafaelCabral26/react-store/tree/master/react-store-v2.0"}
                             webSiteLink={"Link"}
                             description={
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra bibendum sagittis. Donec porta aliquam nisl sollicitudin congue. Nulla eu porttitor augue, vitae tempus. "
+                                "Site simulando loja de vestimentas, possui criação de conta para o usuário e carrinho de compras para adicionar os produtos."
                             }
                         ></ProjectsInfo>
                     </SwiperSlide>

@@ -18,7 +18,7 @@ export function ProjectsPage() {
                     className="mySwiper bg-primary"
                 >
                     <SwiperSlide className="m-auto ">
-                        <img className="m-auto lg:float-right lg:m-4 lg:mr-10 rounded-lg " src="src/assets/fitandapp.png" alt="" />
+                        <img className="m-auto lg:float-right lg:m-4 lg:mr-10 rounded-lg " src="../../fitandapp.png" alt="" />
                         <ProjectsInfo
                             tecs={"NextJS, MySQL, NodeJS, Docker"}
                             gitHub={"https://github.com/RafaelCabral26/react-store/tree/master/react-store-v2.0"}
@@ -30,7 +30,7 @@ export function ProjectsPage() {
                     </SwiperSlide>
 
                     <SwiperSlide className="m-auto ">
-                        <img className="m-auto lg:float-right lg:m-4 lg:mr-10 rounded-lg" src="src/assets/e-cart.png" alt="" />
+                        <img className="m-auto lg:float-right lg:m-4 lg:mr-10 rounded-lg" src="../../e-cart.png" alt="" />
                         <ProjectsInfo
                             tecs={"React, MongoDB, TailwindCSS, NodeJS"}
                             gitHub={"https://github.com/RafaelCabral26/react-store/tree/master/react-store-v2.0"}

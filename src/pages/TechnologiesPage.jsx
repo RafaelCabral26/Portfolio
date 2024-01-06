@@ -322,9 +322,10 @@ function DockerIcon({ setBackInfo }) {
 
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-14"
+                className="w-10 2xl:w-14 "
                 fill="none"
                 viewBox="0 0 32 32"
+                
             >
                 <g>
                     <circle cx="16" cy="16" r="14" fill="#1794D4"></circle>
